@@ -58,11 +58,11 @@
             justify-content: center;
         }
 
-        .first { left: 30px; bottom: 260px; background:url("/img/1.jpg");background-size: contain; }
-        .second { left: 30px; bottom: 190px; background:url("/img/2.jpg");background-size: contain;}
-        .third { left: 30px; bottom: 120px; background:url("/img/3.jpg");background-size: contain;}
-        .forth { left: 30px; bottom: 50px; background:url("/img/4.jpg");background-size: contain;}
-        .fifth { left: 30px; bottom: -20px; background:url("/img/5.jpg");background-size: contain;}
+        .first { left: 30px; bottom: 260px; background:URL("./img/1.jpg");background-size: contain; }
+        .second { left: 30px; bottom: 190px; background:URL("./img/2.jpg");background-size: contain;}
+        .third { left: 30px; bottom: 120px; background:url("./img/3.jpg");background-size: contain;}
+        .forth { left: 30px; bottom: 50px; background:url("./img/4.jpg");background-size: contain;}
+        .fifth { left: 30px; bottom: -20px; background:url("./img/5.jpg");background-size: contain;}
 
         .content{
             display: flex;
@@ -294,11 +294,11 @@
     <div class="first_container">
         <div class="carousel-container">
             <div class="carousel-wrapper" id="carouselWrapper">
-                <div class="carousel-card"><img src="/1.jpg" alt=""></div>
-                <div class="carousel-card"><img src="2.JPG" alt=""></div>
                 <div class="carousel-card"><img src="./img/3.JPG" alt=""></div>
-                <div class="carousel-card"><img src="/img/4.jpg" alt=""></div>
-                <div class="carousel-card"><img src="img/5.JPG" alt=""></div>
+                <div class="carousel-card"><img src="./img/3.JPG" alt=""></div>
+                <div class="carousel-card"><img src="./img/3.JPG" alt=""></div>
+                <div class="carousel-card"><img src="./img/4.JPG" alt=""></div>
+                <div class="carousel-card"><img src="./img/5.JPG" alt=""></div>
                 <!-- Add more cards as needed -->
             </div>
             <div class="first" onclick="firstSlide()"></div>
